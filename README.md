@@ -2,7 +2,7 @@
 
 A comprehensive annotation of non-coding RNAs in available bat genome assemblies. Here we provide all code writen and used to annotate various ncRNAs in available bat genomes. 
 
-## script usage reference 
+## Script usage reference 
 
 Make sure BATLIST.csv is available in the current directory
 
