@@ -5,11 +5,7 @@ Here we provide all code writen and used to annotate and merge various ncRNAs in
 
 Please note, that the scripts need to be adjusted to your working environment.
 
-As input for the scripts, the annotation files (``GTF``) provided at our supplement page 
-
-!(https://www.rna.uni-jena.de/supplements/bats)(https://www.rna.uni-jena.de/supplements/bats)
-
-are needed.
+As input for the scripts, the annotation files (_GTF_) provided at our [supplement page](https://www.rna.uni-jena.de/supplements/bats) are needed.
 
 ## Script usage reference 
 
