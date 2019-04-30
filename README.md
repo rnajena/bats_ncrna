@@ -49,9 +49,9 @@ done
 ```
 
 Used scripts:
-* [find_transcripts_from_blast.py](/home/ji57pog/Projects/mh_bats_ncrna_annotation/find_transcripts_from_blast.py)
-* [blast_transcripts_to_gtf.py](/home/ji57pog/Projects/mh_bats_ncrna_annotation/blast_transcripts_to_gtf.py)
-* [merge_stacks.py](/home/ji57pog/Projects/mh_bats_ncrna_annotation/merge_stacks.py)
+* [find_transcripts_from_blast.py](https://github.com/rnajena/bats_ncrna/blob/master/find_transcripts_from_blast.py)
+* [blast_transcripts_to_gtf.py](https://github.com/rnajena/bats_ncrna/blob/master/blast_transcripts_to_gtf.py)
+* [merge_stacks.py](https://github.com/rnajena/bats_ncrna/blob/master/merge_stacks.py)
 
 ## Convert MITOS2 gff to gtf
 
@@ -60,7 +60,7 @@ python3 convert_mitos_output.py
 ```
 
 Used script:
-* [convert_mitos_output.py](/home/ji57pog/Projects/mh_bats_ncrna_annotation/convert_mitos_output.py)
+* [convert_mitos_output.py](https://github.com/rnajena/bats_ncrna/blob/master/convert_mitos_output.py)
 
 ## EFU (_E. fuscus_) ID correction (renaming duplicated IDs)
 
