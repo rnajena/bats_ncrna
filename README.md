@@ -1,14 +1,18 @@
 # Non-coding RNAs in bats
 
-A comprehensive annotation of non-coding RNAs in available bat genome assemblies.
-Here we provide all code writen and used to annotate and merge various ncRNAs in available bat genomes.
+A comprehensive annotation of non-coding RNAs in available bat genome
+assemblies. Here, we provide all major code writen and used to annotate and
+merge various ncRNAs in available bat genomes.
 
 Please note, that the scripts need to be adjusted to your working environment.
 The calls of the scripts are documented below. The scripts are for illustrative
-purposes rather than being run in their entirety on other data sets. 
+purposes rather than being run in their entirety on other data sets.
 
-As input for the scripts, the annotation files (_GTF_) provided at our [supplement page](https://www.rna.uni-jena.de/supplements/bats) are needed.
-For some scripts, make sure that BATLIST.csv is available in the current directory.
+As input for the scripts, the annotation files (_GTF_) provided at our
+[supplement page](https://www.rna.uni-jena.de/supplements/bats) or the formated
+bat genomes provided at the [OSF](https://doi.org/10.17605/OSF.IO/4CMDN)
+repository are needed. For some scripts, make sure that BATLIST.csv is available
+in the current directory.
 
 ## lncRNA analysis
 
@@ -69,7 +73,7 @@ python3 make_ids_unique.py
 ```
 
 Used script:
-* [make_ids_unique.py](/home/ji57pog/Projects/mh_bats_ncrna_annotation/util/make_ids_unique.py)
+* [make_ids_unique.py](https://github.com/rnajena/bats_ncrna/blob/master/make_ids_unique.py)
 
 ## Merge ncRNA gtfs
 
@@ -84,7 +88,7 @@ for BAT in `cat BATLIST.csv`; do echo $BAT; merge_gtf_global_ids.py \
 ````
 
 Used script:
-* [merge_gtf_global_ids.py]()
+* [merge_gtf_global_ids.py](https://github.com/rnajena/bats_ncrna/blob/master/merge_gtf_global_ids.py)
 
 ## Convert and filter NCBI annotation to compatible format
 
@@ -96,7 +100,7 @@ for ANNO in annotations/abbr/???.gff; do BATA=${ANNO##*/}; BAT=${BATA%%.*}; \
 ````
 
 Used script:
-* [format_ncbi.py]()
+* [format_ncbi.py](https://github.com/rnajena/bats_ncrna/blob/master/merge_gtf_global_ids.py)
 
 ## Merge formatted NCBI gtfs and ncRNA gtfs
 
@@ -109,4 +113,4 @@ for BAT in `cat BATLIST.csv`; do echo $BAT; merge_gtf_ncbi.py \
 ````
 
 Used script:
-* [merge_gtf_ncbi.py]()
+* [merge_gtf_ncbi.py](https://github.com/rnajena/bats_ncrna/blob/master/merge_gtf_global_ids.py)
